@@ -1,0 +1,198 @@
+.header__container{
+    width: 100%;
+}
+.header__head::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 83px;
+    background-color: white;
+    z-index: -5;
+}
+.header__head{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+.header__logo{
+    width: 20%;
+}
+.header__logo a img{
+    width: 13vw;
+}
+
+.header__link{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.header__nav{
+    width: 90%;
+    padding: 0 122px;
+    margin-right: 60px;
+    font-family: revert;
+}
+.nav__hov{
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+}
+.header__nav li .nav__hov{
+    color: black;
+    text-decoration: none;
+    padding: 10px 0;
+    border-bottom: 2px solid white;
+    transition: border-bottom 0.5s ease-in-out;
+}
+.header__nav li a img{
+    width: 35px;
+}
+.header__loc{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.header__nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__loc a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;  
+}
+.header__loc a img{
+    width: 15px;
+}
+.header__laptop{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 50px;
+    padding-top: 20px;
+}
+.header__sea{
+    width: 45px;
+    height: 45px;
+}
+.header__lacos{
+    width: 126px;
+    height: 50px;
+}
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
+    width: 27px;
+    height: 2px;
+}
+.header__nav ul li{
+    padding: 22px 15px;
+    font-weight: 300;
+}
+.header__nav ul li:hover .nav__hov{
+    border-bottom: 2px solid gray;
+    transition: border-bottom 0.5s ease-in-out;
+}
+.nav__sub1{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: -9;
+    background-color: white;
+}
+.nav__con{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__con .all__nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav__con .all__nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.nav__con .all__nav ul li{
+    padding: 3px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.all__nav p{
+    font-variant: all-small-caps;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2rem;
+    letter-spacing: 1.5px;
+    text-shadow: 0 0 1px black;
+}
+.all__nav p a{
+    color: black;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out,text-shadow 0.2s ease-in-out ;
+}
+.all__nav p a:hover{
+    color: #a39e9e;
+    text-shadow: 0 0 1px #a39e9e;
+    transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
+}
+.nav__clothing ul a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+.nav__clothing ul a:hover{
+    color: #b1acac;
+    transition: color 0.3s ease-in-out;
+}
+.nav__shop a{
+    transition: none !important;
+    padding: 10px 16px !important;
+    border: 1px solid #d4d4d4;
+    border-radius: 28px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 5px !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.nav__shop ul li{
+    padding: 15px !important;
+    margin-bottom: 7px !important;
+}
+.nav__shop{
+    padding: 0 50px;
+}
+.nav__shop p{
+    margin-left: 20px;
+}
+.nav__shop a:hover{
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.kid__hover{
+    margin-right: 200px;
+}
+.nav__sub1{
+    background-color: white;
+    opacity: 0;
+    transform: translateY(-600px);
+    transition: transform 1s ease-in, opacity 0.1s ease-in 1s;
+}
+.header__hove:hover > .nav__sub1{
+    opacity: 1;
+    transform: translateY(60px);
+    transition: transform 0.3s ease-out, opacity 0.1s ease-out;
+}

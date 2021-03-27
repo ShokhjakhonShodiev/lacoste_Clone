@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app__container{
+    overflow: hidden;
+    width: 100%;
+}
+.app__body{
+    padding: 0 50px;
+    margin-top: 80px;
+}
+.app__h2{
+    font-family: 'Lexend', sans-serif;
+}
+.app__number{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.app__number strong{
+    font-weight: 700;
+    margin: 0 10px;
+}
+.app__number img{
+    width: 19px;
+}
+.app__number a{
+    margin-top: 5px;
+}
