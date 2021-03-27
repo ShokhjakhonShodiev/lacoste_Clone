@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/lacoste_Clone/static/css/main.444ebf2d.chunk.css",
+    "main.js": "/lacoste_Clone/static/js/main.90a9bfa9.chunk.js",
+    "main.js.map": "/lacoste_Clone/static/js/main.90a9bfa9.chunk.js.map",
+    "runtime-main.js": "/lacoste_Clone/static/js/runtime-main.3995daa5.js",
+    "runtime-main.js.map": "/lacoste_Clone/static/js/runtime-main.3995daa5.js.map",
+    "static/css/2.de1c8048.chunk.css": "/lacoste_Clone/static/css/2.de1c8048.chunk.css",
+    "static/js/2.3068cbb6.chunk.js": "/lacoste_Clone/static/js/2.3068cbb6.chunk.js",
+    "static/js/2.3068cbb6.chunk.js.map": "/lacoste_Clone/static/js/2.3068cbb6.chunk.js.map",
+    "index.html": "/lacoste_Clone/index.html",
+    "static/css/2.de1c8048.chunk.css.map": "/lacoste_Clone/static/css/2.de1c8048.chunk.css.map",
+    "static/css/main.444ebf2d.chunk.css.map": "/lacoste_Clone/static/css/main.444ebf2d.chunk.css.map",
+    "static/js/2.3068cbb6.chunk.js.LICENSE.txt": "/lacoste_Clone/static/js/2.3068cbb6.chunk.js.LICENSE.txt",
+    "static/media/lacos.870485c4.jpg": "/lacoste_Clone/static/media/lacos.870485c4.jpg",
+    "static/media/loc.5d7d7727.jpg": "/lacoste_Clone/static/media/loc.5d7d7727.jpg",
+    "static/media/logon.b8d79365.png": "/lacoste_Clone/static/media/logon.b8d79365.png",
+    "static/media/searches.df8e1a6e.png": "/lacoste_Clone/static/media/searches.df8e1a6e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3995daa5.js",
+    "static/css/2.de1c8048.chunk.css",
+    "static/js/2.3068cbb6.chunk.js",
+    "static/css/main.444ebf2d.chunk.css",
+    "static/js/main.90a9bfa9.chunk.js"
+  ]
+}
