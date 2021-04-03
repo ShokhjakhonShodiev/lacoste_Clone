@@ -1,0 +1,109 @@
+.showbar__swiper{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    background-color: #f4f4f4;
+}
+.showbar__swiper .swiper-slide img{
+    width: 560px;
+}
+.showbar__swiper .swiper-slide{
+    display: flex;
+    padding: 30px 50px;
+    padding-top: 100px;
+}
+.showbar__ins{
+    padding: 0 38px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 130px;
+}
+.showbar__swiper .lac__ins{
+    display: inline-block;
+    padding: 0 50px;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    top: 65px;
+    z-index: 99999;
+}
+.swiper-container{
+    overflow: visible;
+}
+.showbar__swiper .swiper-button-prev{
+    right: 183px !important;
+    left: unset;
+    top: 52px;
+}
+.showbar__swiper .swiper-button-prev::after{
+    font-size: 21px;
+    color: black;
+}
+.showbar__swiper .swiper-button-next{
+    right: 79px !important;
+    left: unset;
+    top: 52px;
+}
+.showbar__swiper .swiper-button-next::after{
+    font-size: 21px;
+    color: black;
+}
+.showbar__swiper .swiper-pagination{
+    text-align: right;
+    padding-right: 114px;
+    top: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.show__link{
+    cursor: pointer;
+    padding: 9px 26px !important;
+    border: 1px solid #d4d4d4;
+    border-radius: 28px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;    
+}
+.show__th{
+    line-height: 28px;
+    letter-spacing: 2px
+}
+.show__hh{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 6px 0px;
+}
+.show__f{
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.showbar__inn{
+    margin-top: 125px;
+}
+.showbar__swiper .slide0,.showbar__swiper .slide1,.showbar__swiper .slide3{
+    background-color: #efefef;
+}
+.showbar__swiper .slide2{
+    background-color: #e0cfb7;
+}
+.showbar__swiper .slide4{
+    background-color: #015551;
+    color: white;
+}
+ .showbar__swiper .slide4 .showbar__ins a{
+    color: black;
+    background-color: white;
+}
+.showbar__swiper .lac__ins__c{
+    color: white;
+}

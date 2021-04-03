@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import logo from '../images/logon.png'
 import searchs from '../images/searches.png'
 import loc from '../images/loc.jpg'
@@ -11,22 +11,6 @@ import Kid_Hover from './subComponent/Kid_Hover'
 import Lacoste_Hover from './subComponent/Lacoste_Hover'
 export default function Header() {
     const [active, setActive] = useState(false)
-    useEffect(() => {
-        getScreenSize()
-    }, [])
-    const getScreenSize = () => {
-        let width = window.innerWidth;
-        let laptop = document.querySelector('.header__laptop');
-        let head = document.querySelector('.header__head');
-
-        if (width < 1200) {
-            head.style.display = 'none';
-            laptop.style.display = 'flex';
-        } else {
-            head.style.display = 'flex';
-            laptop.style.display = 'none';
-        }
-    }
 
     let isactive = active ? 'is-active' : 'not-active'
     return (

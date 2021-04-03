@@ -1,0 +1,121 @@
+.footer__wrap{
+    width: 100%;
+    position: relative;
+    top: -10px;
+    display: flex;
+    padding: 50px 40px;
+    background-color: #f4f4f4;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer__wrap .footer__f p{
+    font-size: 19px;
+    margin-bottom: 25px
+}
+.footer__wrap .footer__f input{
+    padding: 14px 13px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding-left: 30px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer__wrap .footer__f button{
+    border: none;
+    outline: none;
+    padding: 15px 27px;
+    background-color: white;
+    border-radius: 26px;
+    margin-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer__f .footer__icons{
+    margin-top: 30px;
+    color: black;
+}
+.footer__f .footer__icons ul{
+    list-style: none;
+    display: flex;
+    padding: 1px 12px;
+    justify-content: space-around;
+}
+.footer__icons ul li a{
+    color: black;
+}
+.footer__s p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.footer__s ul{
+    list-style: none;
+}
+.footer__s ul li{
+    margin-bottom: 7px;
+}
+.footer__s ul li a{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.footer__th p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.footer__th ul{
+    list-style: none;
+}
+.footer__th ul li{
+    margin-bottom: 7px;
+}
+.footer__th ul li a{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.footer__fo > p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.footer__fo ul{
+    list-style: none;
+}
+.footer__fo ul li{
+    margin-bottom: 7px;
+}
+.footer__fo ul li a{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 500;
+}
+.fo__des{
+    font-size: 11px;
+    font-weight: 300;
+    color: black;
+    width: 169px;
+    font-family: 'Quicksand';
+}
+.fo__des__tw{
+    font-size: 11px !important;
+    font-weight: 300 !important;
+    color: black;
+    font-family: 'Quicksand' !important;
+    width: 220px;
+}
+.bouti{
+    padding: 15px 80px !important;
+    font-weight: 500;
+    margin-top: 30px !important;
+    margin-left: 0 !important;
+}
+.footer__ff{
+    display: none;
+}

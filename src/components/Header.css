@@ -12,19 +12,19 @@
     z-index: -5;
 }
 .header__head{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     width: 100%;
     display: flex;
     align-items: center;
     position: fixed;
-    z-index: 999;
+    z-index: 99999999999;
 }
 .header__logo{
     width: 20%;
 }
 .header__logo a img{
-    width: 13vw;
+    width: 8vw;
 }
 
 .header__link{
@@ -78,6 +78,8 @@
     justify-content: space-between;
     padding: 0 50px;
     padding-top: 20px;
+    z-index: 999999999999;
+    background-color: white;
 }
 .header__sea{
     width: 45px;
@@ -196,3 +198,4 @@
     transform: translateY(60px);
     transition: transform 0.3s ease-out, opacity 0.1s ease-out;
 }
+
